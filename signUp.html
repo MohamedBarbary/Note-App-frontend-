@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/signup-styles.css"> <!-- New CSS for sign-up page -->
+</head>
+<body>
+  <div class="signup-container">
+    <form class="signup-form" id="signupForm" action="#" method="post">
+      <h2>Sign Up</h2>
+      <div class="input-group">
+        <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+      </div>
+      <div class="input-group">
+        <input type="email" id="email" name="email" placeholder="Email" required>
+      </div>
+      <div class="input-group">
+        <input type="password" id="password" name="password" placeholder="Password" required>
+      </div>
+      <div class="input-group">
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+      </div>
+      <div class="input-group">
+        <button type="submit">Sign Up</button>
+      </div>
+      <div class="additional-links">
+        <!-- You can add more additional links here if needed -->
+        <a href="index.html">Back to Login</a>
+      </div>
+    </form>
+  </div>
+
+  <!-- Include Axios from a CDN (Content Delivery Network) -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  
+  <!-- Your script using Axios -->
+  <script src="js/signUp.js"></script>
+</body>
+</html>
