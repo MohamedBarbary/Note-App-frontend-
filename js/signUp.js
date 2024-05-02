@@ -18,7 +18,7 @@ document
 
     // Replace 'YOUR_API_ENDPOINT' with your actual API endpoint
     const apiUrl =
-      "https://noteapi-production-a0e1.up.railway.app/api/users/signUp";
+      "https://noteapi-x6uf.onrender.com/api/users/signUp";
 
     fetch(apiUrl, {
       method: "POST",
