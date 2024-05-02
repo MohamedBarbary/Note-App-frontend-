@@ -2,7 +2,7 @@ const notesContainer = document.getElementById("notesContainer");
 
 let apiUrl;
 apiUrl =
-  "https://noteapi-production-a0e1.up.railway.app/api/v1/notes/getAllNotes";
+  "https://noteapi-x6uf.onrender.com/api/v1/notes/getAllNotes";
 
 function fetchNotes() {
   const cookies = document.cookie; // Read cookies from the browser
@@ -111,7 +111,7 @@ function addNote() {
 
 // Function to send the note to the API
 function sendNoteToAPI({ title, content }) {
-  const apiUrl = "https://noteapi-production-a0e1.up.railway.app/api/v1/notes"; // Replace with your API endpoint
+  const apiUrl = "https://noteapi-x6uf.onrender.com/api/v1/notes"; // Replace with your API endpoint
 
   fetch(apiUrl, {
     method: "POST",
@@ -136,7 +136,7 @@ function sendNoteToAPI({ title, content }) {
 function deleteNote(noteId) {
   const noteElement = document.getElementById(noteId);
   const noteApiUrl =
-    "https://noteapi-production-a0e1.up.railway.app/api/v1/notes";
+    "https://noteapi-x6uf.onrender.com/api/v1/notes";
 
   // Check if data-id attribute exists
   const noteDataId = noteElement.getAttribute("id");
@@ -175,7 +175,7 @@ function updateNote(noteId) {
   const titleElement = noteElement.querySelector(".title");
   const descriptionElement = noteElement.querySelector(".description");
   const noteApiUrl =
-    "https://noteapi-production-a0e1.up.railway.app/api/v1/notes";
+    "https://noteapi-x6uf.onrender.com/api/v1/notes";
 
   // Check if data-id attribute exists
   const noteDataId = noteElement.getAttribute("id");
