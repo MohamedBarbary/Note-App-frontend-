@@ -12,7 +12,7 @@ document
       email: email,
     };
     const apiUrl =
-      "https://noteapi-production-a0e1.up.railway.app/api/users/forgotPassword";
+      "https://noteapi-x6uf.onrender.com/api/users/forgotPassword";
 
     fetch(apiUrl, {
       method: "POST",
